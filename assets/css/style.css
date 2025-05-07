@@ -1,0 +1,74 @@
+.country-name {
+    background-color: #66ff66;
+}
+
+.population {
+    background-color: blue;
+}
+
+.capital {
+    background-color: green;
+}
+
+.mt-fuji {
+    background-color: yellow;
+}
+
+.asakusa {
+    background-color: purple;
+}
+
+.kyoto {
+    background-color: orange;
+}
+
+.language {
+    background-color: pink;
+}
+
+.currency {
+    background-color: brown;
+}
+
+.favorite-food {
+    background-color: gray;
+}
+
+.nobunaga {
+    background-color: black;
+}
+
+.syotoku-taishi {
+    background-color: coral;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.box-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.box {
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.box-left {
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.box-right {
+    width: 35%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
