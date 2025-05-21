@@ -1,4 +1,4 @@
-.country-name {
+/* .country-name {
     background-color: #66ff66;
 }
 
@@ -40,7 +40,7 @@
 
 .syotoku-taishi {
     background-color: coral;
-}
+} */
 
 img {
     max-width: 100%;
@@ -50,6 +50,7 @@ img {
 .box-wrapper {
     display: flex;
     justify-content: space-around;
+    align-items: stretch;
 }
 
 .box {
@@ -57,6 +58,15 @@ img {
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
+    box-shadow: 5px 2px 2px grey;
+    border: 1px solid grey;
+}
+
+.box img {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    display: block;
 }
 
 .box-left {
@@ -71,4 +81,40 @@ img {
     padding: 10px;
     text-align: center;
     box-sizing: border-box;
+}
+
+
+
+.w-10 {
+    width: 10%;
+}
+
+header {
+    text-align: center;
+}
+
+/* 全てに１０PX */
+.m-10 {
+    margin: 10px;
+    margin: 10px 10px 10px 10px;
+}
+
+/* 上に１０PX */
+.mt-10 {
+    margin-top: 10px;
+}
+
+/* 下に１０PX */
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+/* 上下に１０PX */
+.my-10 {
+    margin: 10px 0;
+}
+
+/* 左右に１０PX */
+.mx-10 {
+    margin: 0 10px;
 }
